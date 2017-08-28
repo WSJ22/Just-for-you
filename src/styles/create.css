@@ -1,0 +1,39 @@
+header{
+  background-color: #f7f7f8;
+}
+.content{
+  width: 100%;
+  background-color: #ffffff;
+  margin-top: 1.6rem;
+  height: 347px;
+  position: absolute;
+  bottom: 0;
+}
+.content ul li{
+  list-style-type: none;
+}
+.item-content{
+  box-sizing: border-box;
+  height: 2.2rem;
+  padding-left: 0.75rem;
+  width: 100%;
+}
+.item-content input{
+  border: none;
+  width: 100%;
+  padding: 10px 0 7px 5px;
+  border-bottom: 3px solid rgb(238, 238, 238);
+}
+textarea{
+  height: 9rem;
+  width: 100%;
+  border: none;
+  padding: 8px 0 8px 6px;
+}
+.content-block1{
+  margin-top: 458px;
+}
+.row{
+  margin-right: 4%;
+  margin-left: 0;
+}
