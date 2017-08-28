@@ -88,7 +88,7 @@ class Login extends React.Component{
       if(data.id=='1'){
         console.log("注册成功");
         UserModel.storeToken(data.content)
-        //location.hash = "/indexList";
+        location.hash = "/indexList";
       }else if(data.id=='2'){
         console.log(data.content);
       }else if(data.id=='3'){
@@ -111,7 +111,7 @@ class Login extends React.Component{
       UserModel.storeToken(data.content)
       console.log("登录成功！")
       // location.hash = '/me'
-      //this.context.router.push('/me');
+      this.context.router.push('/me');
     },(error)=>{
       console.log("登录失败！")
     })
